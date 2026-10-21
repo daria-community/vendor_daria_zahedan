@@ -1,0 +1,4 @@
+service boot_logo_updater /vendor/bin/boot_logo_updater
+    class late_start
+    group system root
+    oneshot

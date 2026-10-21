@@ -4,7 +4,7 @@
  <Param name="MTK_AUDIO_HD_REC_SUPPORT" value="yes" />
  <Param name="MTK_DUAL_MIC_SUPPORT" value="yes" />
  <Param name="MTK_AUDIO_MIC_INVERSE" value="no" />
- <Param name="MTK_HANDSFREE_DMNR_SUPPORT" value="no" />
+ <Param name="MTK_HANDSFREE_DMNR_SUPPORT" value="yes" />
  <Param name="DMNR_TUNNING_AT_MODEMSIDE" value="" />
  <Param name="MTK_VOIP_ENHANCEMENT_SUPPORT" value="yes" />
  <Param name="MTK_TB_WIFI_3G_MODE" value="" />
@@ -57,7 +57,9 @@
  <Param name="MTK_VOW_SINGLE_MIC_SELECT" value="" />
  <Param name="MTK_VOW_RECORD_CONCURRENT" value="" />
  <Param name="MTK_SPK_AP_SWMIX_PROCESS" value="no" />
- <Param name="MTK_AUDIODSP_SUPPORT" value="no" />
+ <Param name="MTK_AUDIODSP_SUPPORT" value="yes" />
+ <Param name="MTK_TC10_FEATURE" value="" />
+ <Param name="MTK_TC10_IN_HOUSE" value="" />
  <Param name="VIR_WIFI_ONLY_SUPPORT" value="no" />
  <Param name="VIR_3G_DATA_ONLY_SUPPORT" value="no" />
  <Param name="VIR_ASR_SUPPORT" value="no" />
@@ -80,6 +82,9 @@
  <Param name="KERNEL_DSPBUFFER_SIZE_HIFI_96K" value="49152" />
  <Param name="KERNEL_DSPBUFFER_SIZE_HIFI_192K" value="65536" />
  <Param name="DPCM_DEEP_BUFFER" value="Playback_3" />
+ <Param name="AUDIO_LEGACY_CHIP_SUPPORT" value="yes" />
+ <Param name="VOW_BARGE_IN_CAPTURE" value="Capture_2" />
+ <Param name="AUDIO_ULTRASOUND_24BIT_SUPPORT" value="no" />
  <Param name="CUST_XML_DIR" value="/data/vendor/audiohal/audio_param/" />
  <Param name="5_POLE_HS_SUPPORT" value="" />
  <Param name="SPH_PARAM_VERSION" value="3.0" />
@@ -91,7 +96,10 @@
  <Param name="MTK_BT_HEARING_AID_SUPPORT" value="yes" />
  <Param name="SPH_PARAM_SV" value="no" />
  <Param name="VIR_SCENE_CUSTOMIZATION_SUPPORT" value="yes" />
+ <Param name="PHONECALL_ACOUSTIC_SHOCK" value="no" />
  <Param name="RCV_PATH_INT" value="yes" />
  <Param name="SPK_PATH_NO_ANA" value="yes" />
+ <Param name="PLAYBACK_USE_24BITS_ONLY" value="yes" />
+ <Param name="AUDIO_ULTRASOUND_96K_SUPPORT" value="no" />
  <Param name="VIR_MTK_USB_PHONECALL" value="yes" />
 </AudioParamOptions>

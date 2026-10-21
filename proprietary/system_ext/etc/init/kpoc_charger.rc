@@ -9,3 +9,4 @@ on charger && property:ro.build.type=userdebug
 service kpoc_charger /system_ext/bin/kpoc_charger
     group system wakelock
     capabilities BLOCK_SUSPEND SYS_ADMIN SYS_BOOT
+    user root

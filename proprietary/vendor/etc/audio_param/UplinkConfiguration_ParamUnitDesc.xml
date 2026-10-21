@@ -10,6 +10,9 @@
 			<Category name="Unprocessed"/>
 			<Category name="VoicePerformance"/>
 		</CategoryType>
+		<CategoryType name="Feature">
+			<Category name="HDR"/>
+		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>
 		<!-- Preprocessing run on 0: AP, 1: HiFi-3 -->

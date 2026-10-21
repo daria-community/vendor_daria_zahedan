@@ -7,3 +7,5 @@ service vendor.muxreport-daemon /vendor/bin/muxreport
 
 on property:vendor.ril.muxreport=1
     start vendor.muxreport-daemon
+    chmod 0220 /sys/bus/pci/devices/0001:01:00.0/mtk_device_ctrl
+    chown root radio /sys/bus/pci/devices/0001:01:00.0/mtk_device_ctrl

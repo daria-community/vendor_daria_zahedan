@@ -1,9 +1,11 @@
-<manifest version="1.0" type="device">
+<!--
+    Input:
+        vendor/mediatek/proprietary/hardware/mtk-hidl-service/gnss-mtk.xml
+-->
+<manifest version="8.0" type="device">
     <hal format="aidl">
-        <name>android.hardware.gnss</name>
-        <interface>
-            <name>IGnss</name>
-            <instance>default</instance>
-        </interface>
+        <name>vendor.mediatek.hardware.gnss</name>
+        <version>3</version>
+        <fqname>IMtkGnss/default</fqname>
     </hal>
 </manifest>

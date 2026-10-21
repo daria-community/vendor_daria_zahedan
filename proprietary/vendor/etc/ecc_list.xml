@@ -146,10 +146,16 @@
     <EccEntry Ecc="123" Category="0" Condition="1" Plmn="732 130"/>
     <EccEntry Ecc="123" Category="0" Condition="1" Plmn="732 360"/>
 
-    <EccEntry Ecc="110" Category="1" Condition="1" Plmn="432 FF"/> 
-    <EccEntry Ecc="115" Category="2" Condition="1" Plmn="432 FF"/> 
-    <EccEntry Ecc="125" Category="4" Condition="1" Plmn="432 FF"/> 
-    <EccEntry Ecc="112" Category="16" Condition="1" Plmn="432 FF"/> 
-    <EccEntry Ecc="911" Category="1" Condition="1" Plmn="432 FF"/> 
+    <!-- wangshaopeng Add for Iran operator 20241104 -->
+    <EccEntry Ecc="110" Category="1" Condition="1" Plmn="432 FF"/>
+    <EccEntry Ecc="115" Category="2" Condition="1" Plmn="432 FF"/>
+    <EccEntry Ecc="125" Category="4" Condition="1" Plmn="432 FF"/>
+    <EccEntry Ecc="112" Category="16" Condition="1" Plmn="432 FF"/>
+    <EccEntry Ecc="911" Category="1" Condition="1" Plmn="432 FF"/>
     <EccEntry Ecc="123" Category="2" Condition="1" Plmn="432 FF"/>
+
+    <!-- yinzhiliang Add for test sim 20250211 -->
+    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="001 01"/>
+    <!-- yinzhiliang Add for The United Arab Emirates sim 20250211 -->
+    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="424 FF"/>
 </EccTable>

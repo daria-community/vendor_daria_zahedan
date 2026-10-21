@@ -30,16 +30,9 @@ on post-fs-data
 
 service ccci_mdinit /vendor/bin/ccci_mdinit 0
     user system
-    group radio system
+    group radio system wakelock
     class core
     priority -20
     ioprio rt 4
-    oneshot
-
-service ccci3_mdinit /vendor/bin/ccci_mdinit 2
-    user system
-    group radio system
-    disabled
-    class core
     oneshot
 

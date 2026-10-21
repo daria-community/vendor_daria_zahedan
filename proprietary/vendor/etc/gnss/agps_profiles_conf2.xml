@@ -1186,6 +1186,16 @@
       v1="44020"
     />
   </carrier_mapping>
+  <carrier_mapping name="DoCoMo">
+    <mcc_mnc
+      v1="44010"
+    />
+  </carrier_mapping>
+  <carrier_mapping name="Rakuten">
+    <mcc_mnc
+      v1="44011"
+    />
+  </carrier_mapping>
   <carrier_mapping name="SK_Telecom">
     <mcc_mnc
       v1="45005"
