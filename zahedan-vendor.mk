@@ -1966,7 +1966,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     HorCali \
     SensorHub \
-    libfmjni \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
