@@ -45,8 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/vintf/manifest/android.hardware.audio.effect.service-aidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.audio.effect.service-aidl.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/vintf/manifest/android.hardware.audio.service-mediatek-aidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.audio.service-mediatek-aidl.xml \
-    vendor/daria/zahedan/proprietary/vendor/etc/vintf/manifest/bluetooth_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/bluetooth_audio.xml \
-    vendor/daria/zahedan/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/android.hardware.audio.core-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.core-impl-mediatek.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth.audio-impl-mediatek.so \
