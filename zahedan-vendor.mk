@@ -1902,9 +1902,9 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/init.thermalloadalgod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermalloadalgod.rc \
-    vendor/daria/zahedan/proprietary/vendor/etc/init/thermal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/thermal-mediatek.rc \
+    vendor/daria/zahedan/proprietary/vendor/etc/init/thermal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal-service.mediatek.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
-    vendor/daria/zahedan/proprietary/vendor/etc/vintf/manifest/thermal-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/thermal-mediatek.xml \
+    vendor/daria/zahedan/proprietary/vendor/etc/vintf/manifest/thermal-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.thermal-service.mediatek.xml \
     vendor/daria/zahedan/proprietary/vendor/lib64/hw/thermal_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal_hal.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalalgo.so \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.usb-aidl-service.mediatekv1.0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb-aidl-service.mediatekv1.0 \
