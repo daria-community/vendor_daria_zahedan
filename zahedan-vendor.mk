@@ -1959,7 +1959,34 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.netdagent-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.netdagent-V1-ndk.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.netdagent@1.0.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.nwk_opt_new-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nwk_opt_new-V1-ndk.so
+    vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.nwk_opt_new-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nwk_opt_new-V1-ndk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libunwindstack.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunwindstack.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libutilscallstack.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutilscallstack.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/liblzma.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblzma.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libunwindstack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libunwindstack.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libutilscallstack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutilscallstack.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/liblzma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblzma.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libmediautils_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmediautils_vendor.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libmemunreachable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmemunreachable.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libprocessgroup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprocessgroup.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libsysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysutils.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib/android.hardware.graphics.common-V5-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/android.hardware.graphics.common-V5-ndk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/av-audio-types-aidl-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/av-audio-types-aidl-V1-ndk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/android.hardware.audio.core-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.audio.core-V2-ndk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/android.media.audio.common.types-V3-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.media.audio.common.types-V3-ndk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/android.hardware.audio.effect-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.audio.effect-V2-ndk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/android.hardware.audio.core.sounddose-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.audio.core.sounddose-V2-ndk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/android.hardware.audio.common-V3-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.audio.common-V3-ndk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/android.hardware.graphics.common-V5-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.graphics.common-V5-ndk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/android.hardware.health-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.health-V1-ndk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libruy.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libruy.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libtextclassifier_hash.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtextclassifier_hash.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libc++_shared.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libc++_shared.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/android.hardware.audio@7.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.audio@7.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/android.hardware.audio@7.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.audio@7.1.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/android.hardware.audio.common@7.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.audio.common@7.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/android.hardware.audio.effect@7.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.audio.effect@7.0.so
 
 PRODUCT_PACKAGES += \
     HorCali \
