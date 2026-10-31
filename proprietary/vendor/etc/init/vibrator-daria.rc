@@ -1,0 +1,4 @@
+service vendor.vibrator-daria /vendor/bin/hw/android.hardware.vibrator-service.daria
+    class hal
+    user system
+    group system input

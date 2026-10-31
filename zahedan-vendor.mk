@@ -62,6 +62,9 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/daria/zahedan/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.audio.service-aidl.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service-aidl.mediatek \
+    vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.vibrator-service.daria:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator-service.daria \
+    vendor/daria/zahedan/proprietary/vendor/etc/init/vibrator-daria.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vibrator-daria.rc \
+    vendor/daria/zahedan/proprietary/vendor/etc/vintf/manifest/android.hardware.vibrator.daria.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.vibrator.daria.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/init/android.hardware.audio.service-aidl.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service-aidl.mediatek.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
