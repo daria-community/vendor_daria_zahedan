@@ -6,6 +6,28 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/daria/zahedan
 
 PRODUCT_COPY_FILES += \
+    vendor/daria/zahedan/proprietary/vendor/lib/libaudio_aidl_conversion_common_ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_aidl_conversion_common_ndk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libaudioaidlcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioaidlcommon.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioutils.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/android.hardware.audio.common@5.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@5.0.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/android.hardware.audio.common-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-V3-ndk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/android.hardware.audio.effect-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.effect-V2-ndk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/android.media.audio.common.types-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.media.audio.common.types-V3-ndk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libaconfig_storage_read_api_cc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaconfig_storage_read_api_cc.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/server_configurable_flags.so:$(TARGET_COPY_OUT_VENDOR)/lib/server_configurable_flags.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libspeexresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeexresampler.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libaudio_aidl_conversion_common_ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_aidl_conversion_common_ndk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libaudioaidlcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioaidlcommon.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioutils.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/android.hardware.audio.common@5.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@5.0.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/android.hardware.audio.common-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-V3-ndk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/android.hardware.audio.effect-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.effect-V2-ndk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/android.media.audio.common.types-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.media.audio.common.types-V3-ndk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libaconfig_storage_read_api_cc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaconfig_storage_read_api_cc.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/server_configurable_flags.so:$(TARGET_COPY_OUT_VENDOR)/lib64/server_configurable_flags.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libspeexresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeexresampler.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/android.hardware.audio.core-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.core-V2-ndk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/android.hardware.audio.core.sounddose-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.core.sounddose-V2-ndk.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_cust.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_key.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libaal_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_sec.so \
