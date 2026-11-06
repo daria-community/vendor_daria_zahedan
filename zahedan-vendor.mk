@@ -1431,13 +1431,11 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/init/eara-io-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/eara-io-service.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/gbe.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gbe.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
-    vendor/daria/zahedan/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/power_game_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_game_cfg.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
-    vendor/daria/zahedan/proprietary/vendor/etc/vintf/manifest/power-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/power-mtk.xml \
     vendor/daria/zahedan/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower-V2-ndk.so \
     vendor/daria/zahedan/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower@1.1.so \
@@ -1969,7 +1967,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/vintf/manifest/CommandService.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/CommandService.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/vintf/manifest/android.hardware.tetheroffload-V1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.tetheroffload-V1-service.xml \
-    vendor/daria/zahedan/proprietary/vendor/etc/wifi/vendor_hals/mtk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_hals/mtk.xml \
     vendor/daria/zahedan/proprietary/vendor/lib/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconnfem.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapmonitor_vendor.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconnfem.so \
@@ -2016,13 +2013,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     HorCali \
     SensorHub \
-    mediatek-common \
+    mediatek-common-daria \
     mediatek-framework \
     mediatek-ims-base \
     mediatek-ims-common \
-    mediatek-telecom-common \
+    mediatek-telecom-common-daria \
     mediatek-telephony-base \
-    mediatek-telephony-common \
+    mediatek-telephony-common-daria \
     ImsService \
     libpowerhal \
     libwifi-hal-mtk

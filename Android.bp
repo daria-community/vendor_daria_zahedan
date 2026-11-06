@@ -80,7 +80,7 @@ android_app_import {
 }
 
 dex_import {
-    name: "mediatek-common",
+    name: "mediatek-common-daria",
     owner: "daria",
     jars: [
         "proprietary/system_ext/framework/mediatek-common.jar",
@@ -116,7 +116,7 @@ dex_import {
 }
 
 dex_import {
-    name: "mediatek-telecom-common",
+    name: "mediatek-telecom-common-daria",
     owner: "daria",
     jars: [
         "proprietary/system_ext/framework/mediatek-telecom-common.jar",
@@ -134,7 +134,7 @@ dex_import {
 }
 
 dex_import {
-    name: "mediatek-telephony-common",
+    name: "mediatek-telephony-common-daria",
     owner: "daria",
     jars: [
         "proprietary/system_ext/framework/mediatek-telephony-common.jar",
